@@ -7,13 +7,25 @@ document.querySelector('#nav-bar').innerHTML = `
                 <span class="logo-text2">land company</span> 
             </div>
         </div>
-        <div class="options">
+        <nav class="nav">
+            <ul class="options">
+                <li><a href="#">About DLC</a></li>
+                <li><a href="../pages/our_worlds.html">Our Worlds</a></li>
+                <li><a href="#">Experiences</a></li>
+                <li><a href="../pages/gallery.html">Gallery</a></li>
+                <li><a href="#">Press</a></li>
+            </ul>
+            <img src="../assets/options.png" alt="">
+        </nav>
+    </div>
+`;
+
+
+{/* <div class="options">
             <span>About DLC</span>
             <span>Our Worlds</span>
             <span>Experiences</span>
             <span>Gallery</span>
             <span>Press</span>
             <img src="../assets/options.png" alt="">
-        </div>
-    </div>
-`;
+        </div> */}
