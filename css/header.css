@@ -1,0 +1,53 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    margin: 3vh 5vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo > img {
+    width: 100%;
+}
+
+.logo-name{
+    padding-left: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-text1{
+    font-size: calc(15px + 1.5vw);
+    color: whitesmoke;
+    text-align: center;
+}
+.logo-text2{
+    text-transform: uppercase;
+    font-size: calc(8px + 0.5vw);
+    color: whitesmoke;
+    text-align: center;
+}
+
+.options{
+    text-align: center;
+    display: flex;
+}
+
+.options > img {
+    width: 4%;
+    height: 80%;
+    padding-top: 0.5vw;
+}
+
+.options > span {
+    color: whitesmoke;
+    padding-right: 4vw;
+    font-size: calc(15px + 0.3vw);
+    padding-top: 1vw;
+    min-width: 10vw;
+}
