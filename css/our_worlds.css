@@ -1,0 +1,41 @@
+boby, html {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    width: 100%;
+    grid-gap: 20px 20px;
+    padding:5vw 20px 5vw 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+}
+
+.card > img {
+    height: 100%;
+    width: 100%;
+}
+
+.first-line {
+    color: whitesmoke;
+    font-size: calc(13px + 0.25vw);
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.second-line {
+    color: #777777;
+    margin: 0;
+    text-transform: capitalize;
+}
