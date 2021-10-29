@@ -33,21 +33,29 @@
     text-align: center;
 }
 
+.nav {
+    display: flex;
+}
+
 .options{
     text-align: center;
     display: flex;
 }
 
-.options > img {
+.nav > img {
     width: 4%;
     height: 80%;
     padding-top: 0.5vw;
 }
 
-.options > span {
-    color: whitesmoke;
+.options > li {
+    list-style-type:none;
     padding-right: 4vw;
     font-size: calc(15px + 0.3vw);
-    padding-top: 1vw;
     min-width: 10vw;
+}
+
+.options > li > a {
+    text-decoration: none;
+    color: whitesmoke;
 }
