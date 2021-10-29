@@ -1,0 +1,31 @@
+.footer{
+    background-color: #161f1e;
+    display: flex;
+    flex-direction: column;
+    padding: 4vw 6vw;
+}
+
+.footer-bottom {
+    margin-bottom: 3vw;
+    color:hsla(0,0%,100%,.75);
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-data > span {
+    padding-bottom: 15px;
+}
+
+.footer-data{
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    color: whitesmoke;
+}
+
+.footer-content{
+    margin-left: 8vw;
+}
