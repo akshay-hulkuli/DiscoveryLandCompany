@@ -1,10 +1,10 @@
 document.querySelector('#nav-bar').innerHTML = `
     <div class="nav-bar">
         <div class="logo">
-            <img src="../assets/logo.png" alt="">
+            <img src="../assets/logo.png" alt="" onclick="window.location='../pages/homepage.html'">
             <div class="logo-name">
-                <span class="logo-text1">Discovery </span>
-                <span class="logo-text2">land company</span> 
+                <span class="logo-text1" onclick="window.location='../pages/homepage.html'">Discovery </span>
+                <span class="logo-text2" onclick="window.location='../pages/homepage.html'">land company</span> 
             </div>
         </div>
         <nav class="nav">
