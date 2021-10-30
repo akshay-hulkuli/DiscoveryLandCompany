@@ -57,6 +57,11 @@ html,body{
     text-transform: capitalize;
 }
 
+.options > li:nth-child(4) {
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
 @media only screen and (max-width: 800px) {
     .main-content{
         grid-template-columns: repeat(2,1fr);
