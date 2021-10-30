@@ -39,3 +39,26 @@ boby, html {
     margin: 0;
     text-transform: capitalize;
 }
+
+.options > li:nth-child(2) {
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 1100px) {
+    .main-content {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .main-content {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .main-content {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
