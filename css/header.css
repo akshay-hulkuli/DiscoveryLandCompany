@@ -13,12 +13,14 @@
 
 .logo > img {
     width: 100%;
+    cursor: pointer;
 }
 
 .logo-name{
     padding-left: 12px;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .logo-text1{
