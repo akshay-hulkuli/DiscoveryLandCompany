@@ -57,7 +57,12 @@
     min-width: 10vw;
 }
 
-.options > li > a {
+.options > li  {
     text-decoration: none;
     color: whitesmoke;
+}
+
+.options > li > a {
+    text-decoration: inherit;
+    color: inherit;
 }
