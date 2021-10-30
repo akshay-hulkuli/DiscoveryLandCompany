@@ -19,13 +19,3 @@ document.querySelector('#nav-bar').innerHTML = `
         </nav>
     </div>
 `;
-
-
-{/* <div class="options">
-            <span>About DLC</span>
-            <span>Our Worlds</span>
-            <span>Experiences</span>
-            <span>Gallery</span>
-            <span>Press</span>
-            <img src="../assets/options.png" alt="">
-        </div> */}
