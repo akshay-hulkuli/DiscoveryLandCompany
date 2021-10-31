@@ -63,7 +63,7 @@ body, html {
 
 .main-content{
     background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/287/background_imagev2_3580431e48aedf97dcedf972d1481942.jpg");
-    height: 120vh;
+    height: 130vh;
     display: flex;
     padding: 10vw 10vw;
 }
@@ -84,12 +84,13 @@ body, html {
 .right-image{
     width: 100%;
     height: 100%;
-    padding-bottom: 10vw;
+    padding-bottom: 6vh;
     padding-left: 5vw;
 }
 
 .text-data{
     padding-left: 3vw;
+    padding-bottom: 5vw;
 }
 
 .text-data > h4{
@@ -107,7 +108,7 @@ body, html {
 }
 
 .second-content{
-    background-color: white;
+    background-image: linear-gradient(white, #f3f3f3);
     display: flex;
     flex-direction: column;
 }
@@ -145,8 +146,8 @@ body, html {
 
 
 .photobanner > article >img{
-    height: 65vh;
-    width: 58vh;
+    height: 35vw;
+    width: 30vw;
     padding: 0 10px;
     z-index: -1;
 }
@@ -171,10 +172,159 @@ body, html {
     text-transform: capitalize;
 }
 
+.third-content {
+    height: 170vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3f3;
+}
 
+.third-content-header {
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 10vw;
+    height: 25%;
+}
 
+.third-content-header > h4{
+    font-size: calc(20px + 2.5vw);
+    margin-bottom: -20px;
+    font-weight: normal;
+    margin-top: 0; 
+}
 
+.third-content-header > h5{
+    font-size: calc(15px + 2.5vw);
+    margin-top: -5px;
+    font-weight: lighter;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin-bottom: 30px;
+}
 
+.third-content-header > p {
+    margin: 5px 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.third-content-body{
+    height: 75%;
+}
+.third-content-body-first-image{
+    width: 80%;
+    object-fit: fill;
+    position: absolute;
+    z-index: 0;
+}
+
+.third-content-body-div{
+    background-color: #161f1e;
+    position: absolute;
+    height: 35vw;
+    width: 50vw;
+    z-index: 1;
+    right: 0;
+    margin-top: 4vw;
+    display: flex;
+}
+
+.third-content-body-div-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.third-content-body-div-left{
+    width: 50%;
+    padding: 0 3vw;
+}
+
+.third-content-body-div-left > img{
+    width: 100%;
+    height: 100%;
+    margin-top: -4vw;
+}
+
+.arrow{
+    height :8%;
+    margin: 3vw 5vw; 
+    display: flex;
+}
+.rotate{
+    transform: rotate(180deg);
+}
+
+.weather{
+    height: 6%;
+    display: flex;
+    margin: 2vw 3vw;
+    justify-content: space-around;
+}
+.weather-inner{
+    text-align: center;
+}
+.weather-inner > img{
+    width: 100%;
+    height: 100%;
+}
+.weather-inner > p{
+    color: whitesmoke;
+}
+
+.location-header{
+    height: 20%;
+    color: whitesmoke;
+    margin: 3vw 5vw;
+}
+
+.location-header > h2{
+    font-size: calc(15px + 2.5vw);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin-top: -5px;
+    font-weight: normal;
+}
+
+.location-footer{
+    display: flex;
+    padding-top: 3vw;
+    margin: 0 5vw 5vw 5vw;
+}
+.location-footer > img{
+    height: 1.5vw;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.location-footer > p {
+    color: whitesmoke;
+}
+
+.forth-content{
+    display: flex;
+    height: 80vh;
+    margin-top: -3vw;
+    z-index: 100;
+}
+.image-container{
+    width: 33%;
+}
+
+.image-container > img {
+    width: 100%;
+    height: 100%;
+}
+
+.image-container > span {
+    position: absolute;
+    margin: auto;
+    font-size: calc(15px + 2.5vw);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    color: whitesmoke;
+    margin-top: 35vh;
+    margin-left: 8vw;
+}
+
+/* #footer{
+    margin-top: -3vw;
+    z-index: 10;
+} */
 @keyframes bannermove {
     0% {
         transform: translate(0, 0);
