@@ -1,0 +1,331 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.options > li:nth-child(3) {
+  text-decoration: underline;
+  color: whitesmoke;
+}
+
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header {
+  display: "flex";
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: "column";
+          flex-direction: "column";
+  height: 100vh;
+}
+
+.video {
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.header-title {
+  color: whitesmoke;
+  font-size: calc(40px + 3vw);
+  padding: 12vw 0 5vw 25vw;
+}
+
+.title-first {
+  margin-bottom: -2vw;
+}
+
+.title-second {
+  font-family: "Zen Kaku Gothic New";
+  margin-top: -2vw;
+}
+
+.header-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 10vw 8vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-bottom-left {
+  font-size: calc(10px + 1vw);
+  color: whitesmoke;
+}
+
+.content-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 8vw 8vw;
+}
+
+.content-one > span {
+  text-align: center;
+  color: #111;
+  font-size: calc(21.33333px + 1.13333vw);
+  font-family: "Cormorant Garamond", serif;
+  font-weight: lighter;
+  margin-bottom: -0.5vw;
+}
+
+.content-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 50vw;
+  padding: 5vw 5vw;
+}
+
+.content-two-left {
+  padding: 8vw 2vw 8vw 8vw;
+  width: 50%;
+}
+
+.content-two-left-title {
+  color: #111;
+  font-size: calc(21.33333px + 1.13333vw);
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.content-two-left > p > span {
+  color: #777;
+  line-height: 2;
+  font-size: 1.2rem;
+}
+
+.content-two-right {
+  width: 50%;
+}
+
+.content-two-right > img {
+  width: 100%;
+  height: 100%;
+  padding: 0 5vw;
+}
+
+.content-three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-height: 70vw;
+  background-color: #fcf8f8;
+  padding: 10vw 0;
+}
+
+.content-three > img {
+  margin-top: -4vw;
+  padding-right: 30%;
+  padding-bottom: 11vw;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.dark-shadow1 {
+  position: absolute;
+  background: #cbcbcf;
+  background: -webkit-gradient(linear, left top, right top, from(#b3b3b8), to(#9ea1a1));
+  background: linear-gradient(90deg, #b3b3b8 0%, #9ea1a1 100%);
+  width: 63vw;
+  height: 40vw;
+  margin-left: 10vw;
+  margin-top: 10vw;
+  z-index: 1;
+}
+
+.content-three-textbox {
+  position: absolute;
+  background-color: white;
+  width: 33vw;
+  height: 32vw;
+  margin-left: 55%;
+  margin-top: 5vw;
+  z-index: 3;
+  padding: 5vw 4vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.content-three-textbox-header {
+  color: #111;
+  font-family: "Cormorant Garamond", serif;
+  font-size: calc(21.33333px + 1.13333vw);
+  padding-top: 2vw;
+}
+
+.content-three-textbox > p {
+  color: #777;
+  line-height: 2;
+  font-size: 1rem;
+}
+
+.button {
+  background-color: transparent;
+  /* Green */
+  padding: 1.5vw 2vw;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  color: #111;
+  border: 2px solid #111;
+  margin-right: 60%;
+}
+
+.content-four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-height: 70vw;
+  background-color: #fcf8f8;
+  padding: 10vw 0;
+}
+
+.content-four > img {
+  margin-top: -4vw;
+  padding-left: 30%;
+  padding-bottom: 11vw;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.dark-shadow2 {
+  position: absolute;
+  background: #cbcbcf;
+  background: -webkit-gradient(linear, left top, right top, from(#cbcbcf), color-stop(7%, #d8d8df), to(#9f6a2e));
+  background: linear-gradient(90deg, #cbcbcf 0%, #d8d8df 7%, #9f6a2e 100%);
+  width: 63vw;
+  height: 40vw;
+  margin-left: 26vw;
+  margin-top: 10vw;
+  z-index: 1;
+}
+
+.content-four-textbox {
+  position: absolute;
+  background-color: white;
+  width: 33vw;
+  height: 32vw;
+  margin-left: 10%;
+  margin-top: 5vw;
+  z-index: 3;
+  padding: 5vw 4vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.content-four-textbox-header {
+  color: #111;
+  font-family: "Cormorant Garamond", serif;
+  font-size: calc(21.33333px + 1.13333vw);
+  padding-top: 2vw;
+}
+
+.content-four-textbox > p {
+  color: #777;
+  line-height: 2;
+  font-size: 1rem;
+}
+
+.dark-shadow3 {
+  position: absolute;
+  background: #cbcbcf;
+  background: -webkit-gradient(linear, left top, right top, from(#cbcbcf), color-stop(54%, #f1f1f1), to(#d8d5d5));
+  background: linear-gradient(90deg, #cbcbcf 0%, #f1f1f1 54%, #d8d5d5 100%);
+  width: 63vw;
+  height: 40vw;
+  margin-left: 10vw;
+  margin-top: 10vw;
+  z-index: 1;
+}
+
+.content-six {
+  height: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.content-six > span {
+  font-size: calc(15px + 2.5vw);
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  color: white;
+  margin: 9vw auto 1vw auto;
+}
+
+.content-six > img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.button2 {
+  background-color: transparent;
+  /* Green */
+  border: none;
+  padding: 1.5vw 5vw;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid #e7e7e7;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=experiences.css.map */
