@@ -11,7 +11,7 @@ document.querySelector('#nav-bar').innerHTML = `
             <ul class="options">
                 <li><a href="../pages/about_dlc.html">About DLC</a></li>
                 <li><a href="../pages/our_worlds.html">Our Worlds</a></li>
-                <li><a href="#">Experiences</a></li>
+                <li><a href="../pages/experiences.html">Experiences</a></li>
                 <li><a href="../pages/gallery.html">Gallery</a></li>
                 <li><a href="#">Press</a></li>
             </ul>
