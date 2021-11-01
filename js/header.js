@@ -9,7 +9,7 @@ document.querySelector('#nav-bar').innerHTML = `
         </div>
         <nav class="nav">
             <ul class="options">
-                <li><a href="#">About DLC</a></li>
+                <li><a href="../pages/about_dlc.html">About DLC</a></li>
                 <li><a href="../pages/our_worlds.html">Our Worlds</a></li>
                 <li><a href="#">Experiences</a></li>
                 <li><a href="../pages/gallery.html">Gallery</a></li>
