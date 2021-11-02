@@ -13,7 +13,7 @@ document.querySelector('#nav-bar').innerHTML = `
                 <li><a href="../pages/our_worlds.html">Our Worlds</a></li>
                 <li><a href="../pages/experiences.html">Experiences</a></li>
                 <li><a href="../pages/gallery.html">Gallery</a></li>
-                <li><a href="#">Press</a></li>
+                <li><a href="../pages/press.html">Press</a></li>
             </ul>
             <img src="../assets/options.png" alt="">
         </nav>
